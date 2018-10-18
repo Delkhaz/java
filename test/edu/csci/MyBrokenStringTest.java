@@ -6,15 +6,27 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/*
+*
+*Unit Testing
+*/
+
 class MyBrokenStringTest {
 
     private MyBrokenStringInterface myBrokenString;
 
+    /*
+    *
+    *BeforeEach Test setup myBrokenString.
+    */
     @BeforeEach
     void setUp() {
         myBrokenString = new MyBrokenString();
     }
-
+    /*
+    *
+    *AfterEach Test set myBrokenString to null.
+    */
     @AfterEach
     void tearDown() {
         myBrokenString = null;
