@@ -49,9 +49,6 @@ public class MyBrokenString implements MyBrokenStringInterface {
                         );
 
         return getEven[1];
-
-
-        //return new StringBuilder();
     }
 
     /**
